@@ -3,7 +3,7 @@
 "title": "Kibbles' Feature Library",
 "description": "Library of features for Kibbles' character options.",
 "author": "KibblesTasty",
-"version": "1.0",
+"version": "1.1",
 "minimumCoreVersion": "0.6.0",
 "compatibleCoreVersion": "9",
 "manifest": "https://github.com/KibblesTasty/kibbles-feature-library/releases/download/archive/module.json",
