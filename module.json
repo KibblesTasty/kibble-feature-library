@@ -3,9 +3,12 @@
 "title": "Kibbles' Feature Library",
 "description": "Library of features for Kibbles' character options.",
 "author": "KibblesTasty",
-"version": "1.1",
+"version": "1.2",
 "minimumCoreVersion": "0.6.0",
-"compatibleCoreVersion": "9",
+"compatibility": {
+    "minimum": "10.270",
+    "verified": "10.288"
+  },
 "manifest": "https://github.com/KibblesTasty/kibbles-feature-library/releases/download/archive/module.json",
 "download": "https://github.com/KibblesTasty/kibbles-feature-library/releases/download/archive/kibbles-feature-library-main.zip",
 "keywords" : [
@@ -13,10 +16,10 @@
 		],
 "packs": [
 			{
-			"name": "kibbles-feature-compendium",
+			"name": "kibbles-feature-library",
 			"label": "Kibbles' Feature Library",
 			"system": "dnd5e",
-			"path": "packs/kibbles-feature-compendium.db",
+			"path": "packs/kibbles-feature-library.db",
 			"entity": "Item",
 			"module": "kibbles-feature-library"
 			}
